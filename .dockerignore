@@ -1,0 +1,12 @@
+.venv
+.git
+.env
+artifacts
+tests
+docs
+__pycache__
+*.pyc
+
+.env.*
+node_modules
+.DS_Store
