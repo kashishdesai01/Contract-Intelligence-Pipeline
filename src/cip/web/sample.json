@@ -1,0 +1,1324 @@
+{
+  "snapshot_id": "sample-preview",
+  "content": {
+    "version": "msa-v1-3ef8efbbed353b76",
+    "families": [
+      {
+        "id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+        "agreement": "Atlas",
+        "parties": [
+          "Atlas Customer Example LLC",
+          "Atlas Supplier Example LLC"
+        ],
+        "base_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+        "versions": [
+          {
+            "as_of": "2025-01-01",
+            "clauses": [
+              {
+                "key": "1",
+                "text": "1. Renewal\nThis Agreement does automatically renew.\nThe renewal term is 12 months.\n\n",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "start": 126,
+                "end": 210,
+                "history": [
+                  "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "1. Renewal\nThis Agreement does automatically renew.\nThe renewal term is 12 months.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "2",
+                "text": "2. Payment\nInvoices are payable within 30 days.\n\n",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "start": 210,
+                "end": 259,
+                "history": [
+                  "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "2. Payment\nInvoices are payable within 30 days.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "3",
+                "text": "3. Termination\nEither party may terminate for convenience with 30 days notice.\n\n",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "start": 259,
+                "end": 339,
+                "history": [
+                  "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "3. Termination\nEither party may terminate for convenience with 30 days notice.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "4",
+                "text": "4. Governing Law\nThis Agreement is governed by the laws of California.\n\n",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "start": 339,
+                "end": 411,
+                "history": [
+                  "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "4. Governing Law\nThis Agreement is governed by the laws of California.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "5",
+                "text": "5. Liability\nAggregate liability is limited to annual fees.\n\n",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "start": 411,
+                "end": 472,
+                "history": [
+                  "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "5. Liability\nAggregate liability is limited to annual fees.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "6",
+                "text": "6. Assignment\nAssignment requires prior written consent.\n",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "start": 472,
+                "end": 529,
+                "history": [
+                  "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "6. Assignment\nAssignment requires prior written consent.\n"
+                  }
+                ]
+              }
+            ],
+            "facts": {
+              "effective_date": {
+                "field": "effective_date",
+                "value": "2025-01-01",
+                "status": "ok",
+                "clause_key": null,
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "quote": "Effective date: 2025-01-01",
+                "quote_origin": "source_header",
+                "reason": "base_instrument_header",
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "Effective date: 2025-01-01"
+                  }
+                ]
+              },
+              "payment_days": {
+                "field": "payment_days",
+                "value": 30,
+                "status": "ok",
+                "clause_key": "2",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "quote": "Invoices are payable within 30 days.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "2. Payment\nInvoices are payable within 30 days.\n\n"
+                  }
+                ]
+              },
+              "notice_days": {
+                "field": "notice_days",
+                "value": 30,
+                "status": "ok",
+                "clause_key": "3",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "quote": "Either party may terminate for convenience with 30 days notice.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "3. Termination\nEither party may terminate for convenience with 30 days notice.\n\n"
+                  }
+                ]
+              },
+              "auto_renewal": {
+                "field": "auto_renewal",
+                "value": true,
+                "status": "ok",
+                "clause_key": "1",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "quote": "This Agreement does automatically renew.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "1. Renewal\nThis Agreement does automatically renew.\nThe renewal term is 12 months.\n\n"
+                  }
+                ]
+              },
+              "renewal_months": {
+                "field": "renewal_months",
+                "value": 12,
+                "status": "ok",
+                "clause_key": "1",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "quote": "The renewal term is 12 months.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "1. Renewal\nThis Agreement does automatically renew.\nThe renewal term is 12 months.\n\n"
+                  }
+                ]
+              },
+              "governing_law": {
+                "field": "governing_law",
+                "value": "California",
+                "status": "ok",
+                "clause_key": "4",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "quote": "This Agreement is governed by the laws of California.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "4. Governing Law\nThis Agreement is governed by the laws of California.\n\n"
+                  }
+                ]
+              },
+              "liability_cap": {
+                "field": "liability_cap",
+                "value": "limited to annual fees",
+                "status": "ok",
+                "clause_key": "5",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "quote": "Aggregate liability is limited to annual fees.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "5. Liability\nAggregate liability is limited to annual fees.\n\n"
+                  }
+                ]
+              },
+              "assignment_consent": {
+                "field": "assignment_consent",
+                "value": true,
+                "status": "ok",
+                "clause_key": "6",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "quote": "Assignment requires prior written consent.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "6. Assignment\nAssignment requires prior written consent.\n"
+                  }
+                ]
+              }
+            },
+            "conflicts": [],
+            "deviations": []
+          },
+          {
+            "as_of": "2025-06-01",
+            "clauses": [
+              {
+                "key": "1",
+                "text": "1. Renewal\nThis Agreement does automatically renew.\nThe renewal term is 12 months.\n\n",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "start": 126,
+                "end": 210,
+                "history": [
+                  "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49"
+                ],
+                "disputed": true,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "1. Renewal\nThis Agreement does automatically renew.\nThe renewal term is 12 months.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "2",
+                "text": "2. Payment\nInvoices are payable within 30 days.\n\n",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "start": 210,
+                "end": 259,
+                "history": [
+                  "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49"
+                ],
+                "disputed": true,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "2. Payment\nInvoices are payable within 30 days.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "3",
+                "text": "3. Termination\nEither party may terminate for convenience with 30 days notice.\n\n",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "start": 259,
+                "end": 339,
+                "history": [
+                  "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49"
+                ],
+                "disputed": true,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "3. Termination\nEither party may terminate for convenience with 30 days notice.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "4",
+                "text": "4. Governing Law\nThis Agreement is governed by the laws of California.\n\n",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "start": 339,
+                "end": 411,
+                "history": [
+                  "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49"
+                ],
+                "disputed": true,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "4. Governing Law\nThis Agreement is governed by the laws of California.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "5",
+                "text": "5. Liability\nAggregate liability is limited to annual fees.\n\n",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "start": 411,
+                "end": 472,
+                "history": [
+                  "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49"
+                ],
+                "disputed": true,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "5. Liability\nAggregate liability is limited to annual fees.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "6",
+                "text": "6. Assignment\nAssignment requires prior written consent.\n",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "start": 472,
+                "end": 529,
+                "history": [
+                  "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49"
+                ],
+                "disputed": true,
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "6. Assignment\nAssignment requires prior written consent.\n"
+                  }
+                ]
+              }
+            ],
+            "facts": {
+              "effective_date": {
+                "field": "effective_date",
+                "value": "2025-01-01",
+                "status": "disputed",
+                "clause_key": null,
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "quote": "Effective date: 2025-01-01",
+                "quote_origin": "source_header",
+                "reason": "unresolved_composite_conflict",
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "Effective date: 2025-01-01"
+                  }
+                ]
+              },
+              "payment_days": {
+                "field": "payment_days",
+                "value": 30,
+                "status": "disputed",
+                "clause_key": "2",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "quote": "Invoices are payable within 30 days.",
+                "quote_origin": "composite",
+                "reason": "unresolved_composite_conflict",
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "2. Payment\nInvoices are payable within 30 days.\n\n"
+                  }
+                ]
+              },
+              "notice_days": {
+                "field": "notice_days",
+                "value": 30,
+                "status": "disputed",
+                "clause_key": "3",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "quote": "Either party may terminate for convenience with 30 days notice.",
+                "quote_origin": "composite",
+                "reason": "unresolved_composite_conflict",
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "3. Termination\nEither party may terminate for convenience with 30 days notice.\n\n"
+                  }
+                ]
+              },
+              "auto_renewal": {
+                "field": "auto_renewal",
+                "value": true,
+                "status": "disputed",
+                "clause_key": "1",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "quote": "This Agreement does automatically renew.",
+                "quote_origin": "composite",
+                "reason": "unresolved_composite_conflict",
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "1. Renewal\nThis Agreement does automatically renew.\nThe renewal term is 12 months.\n\n"
+                  }
+                ]
+              },
+              "renewal_months": {
+                "field": "renewal_months",
+                "value": 12,
+                "status": "disputed",
+                "clause_key": "1",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "quote": "The renewal term is 12 months.",
+                "quote_origin": "composite",
+                "reason": "unresolved_composite_conflict",
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "1. Renewal\nThis Agreement does automatically renew.\nThe renewal term is 12 months.\n\n"
+                  }
+                ]
+              },
+              "governing_law": {
+                "field": "governing_law",
+                "value": "California",
+                "status": "disputed",
+                "clause_key": "4",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "quote": "This Agreement is governed by the laws of California.",
+                "quote_origin": "composite",
+                "reason": "unresolved_composite_conflict",
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "4. Governing Law\nThis Agreement is governed by the laws of California.\n\n"
+                  }
+                ]
+              },
+              "liability_cap": {
+                "field": "liability_cap",
+                "value": "limited to annual fees",
+                "status": "disputed",
+                "clause_key": "5",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "quote": "Aggregate liability is limited to annual fees.",
+                "quote_origin": "composite",
+                "reason": "unresolved_composite_conflict",
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "5. Liability\nAggregate liability is limited to annual fees.\n\n"
+                  }
+                ]
+              },
+              "assignment_consent": {
+                "field": "assignment_consent",
+                "value": true,
+                "status": "disputed",
+                "clause_key": "6",
+                "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                "quote": "Assignment requires prior written consent.",
+                "quote_origin": "composite",
+                "reason": "unresolved_composite_conflict",
+                "evidence": [
+                  {
+                    "source_id": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+                    "quote": "6. Assignment\nAssignment requires prior written consent.\n"
+                  }
+                ]
+              }
+            },
+            "conflicts": [
+              {
+                "id": "9703496920efe2a82e1a5c9aede5e32e21413d76a1f7a4cda5700ddbe12194a8",
+                "source_id": "f85dcfe436975034974046396ad071cad65cae9bd46d58573bd5cce4ffa6f4d7",
+                "target": "2",
+                "kind": "same_date_overlap",
+                "detail": "Multiple instruments change this section."
+              },
+              {
+                "id": "f96094f9ff4f709256a68ecce0c03615da4cdd1625566bb9896e9881b42a1a78",
+                "source_id": "5a4c63e70a2410a89cb692a60b6eb7a217417cea320efa39911fe15bfb5b1acb",
+                "target": "2",
+                "kind": "same_date_overlap",
+                "detail": "Multiple instruments change this section."
+              }
+            ],
+            "deviations": []
+          }
+        ]
+      },
+      {
+        "id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+        "agreement": "Meridian",
+        "parties": [
+          "Meridian Customer Example LLC",
+          "Meridian Supplier Example LLC"
+        ],
+        "base_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+        "versions": [
+          {
+            "as_of": "2025-01-01",
+            "clauses": [
+              {
+                "key": "1",
+                "text": "1. Renewal\nThis Agreement does not automatically renew.\nThe renewal term is 12 months.\n\n",
+                "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                "start": 135,
+                "end": 223,
+                "history": [
+                  "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                    "quote": "1. Renewal\nThis Agreement does not automatically renew.\nThe renewal term is 12 months.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "2",
+                "text": "2. Payment\nInvoices are payable within 45 days.\n\n",
+                "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                "start": 223,
+                "end": 272,
+                "history": [
+                  "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                    "quote": "2. Payment\nInvoices are payable within 45 days.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "3",
+                "text": "3. Termination\nEither party may terminate for convenience with 90 days notice.\n\n",
+                "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                "start": 272,
+                "end": 352,
+                "history": [
+                  "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                    "quote": "3. Termination\nEither party may terminate for convenience with 90 days notice.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "4",
+                "text": "4. Governing Law\nThis Agreement is governed by the laws of California.\n\n",
+                "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                "start": 352,
+                "end": 424,
+                "history": [
+                  "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                    "quote": "4. Governing Law\nThis Agreement is governed by the laws of California.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "5",
+                "text": "5. Liability\nAggregate liability is limited to annual fees.\n\n",
+                "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                "start": 424,
+                "end": 485,
+                "history": [
+                  "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                    "quote": "5. Liability\nAggregate liability is limited to annual fees.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "6",
+                "text": "6. Assignment\nAssignment requires prior written consent.\n",
+                "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                "start": 485,
+                "end": 542,
+                "history": [
+                  "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                    "quote": "6. Assignment\nAssignment requires prior written consent.\n"
+                  }
+                ]
+              }
+            ],
+            "facts": {
+              "effective_date": {
+                "field": "effective_date",
+                "value": "2025-01-01",
+                "status": "ok",
+                "clause_key": null,
+                "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                "quote": "Effective date: 2025-01-01",
+                "quote_origin": "source_header",
+                "reason": "base_instrument_header",
+                "evidence": [
+                  {
+                    "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                    "quote": "Effective date: 2025-01-01"
+                  }
+                ]
+              },
+              "payment_days": {
+                "field": "payment_days",
+                "value": 45,
+                "status": "ok",
+                "clause_key": "2",
+                "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                "quote": "Invoices are payable within 45 days.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                    "quote": "2. Payment\nInvoices are payable within 45 days.\n\n"
+                  }
+                ]
+              },
+              "notice_days": {
+                "field": "notice_days",
+                "value": 90,
+                "status": "ok",
+                "clause_key": "3",
+                "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                "quote": "Either party may terminate for convenience with 90 days notice.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                    "quote": "3. Termination\nEither party may terminate for convenience with 90 days notice.\n\n"
+                  }
+                ]
+              },
+              "auto_renewal": {
+                "field": "auto_renewal",
+                "value": false,
+                "status": "ok",
+                "clause_key": "1",
+                "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                "quote": "This Agreement does not automatically renew.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                    "quote": "1. Renewal\nThis Agreement does not automatically renew.\nThe renewal term is 12 months.\n\n"
+                  }
+                ]
+              },
+              "renewal_months": {
+                "field": "renewal_months",
+                "value": 12,
+                "status": "ok",
+                "clause_key": "1",
+                "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                "quote": "The renewal term is 12 months.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                    "quote": "1. Renewal\nThis Agreement does not automatically renew.\nThe renewal term is 12 months.\n\n"
+                  }
+                ]
+              },
+              "governing_law": {
+                "field": "governing_law",
+                "value": "California",
+                "status": "ok",
+                "clause_key": "4",
+                "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                "quote": "This Agreement is governed by the laws of California.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                    "quote": "4. Governing Law\nThis Agreement is governed by the laws of California.\n\n"
+                  }
+                ]
+              },
+              "liability_cap": {
+                "field": "liability_cap",
+                "value": "limited to annual fees",
+                "status": "ok",
+                "clause_key": "5",
+                "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                "quote": "Aggregate liability is limited to annual fees.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                    "quote": "5. Liability\nAggregate liability is limited to annual fees.\n\n"
+                  }
+                ]
+              },
+              "assignment_consent": {
+                "field": "assignment_consent",
+                "value": true,
+                "status": "ok",
+                "clause_key": "6",
+                "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                "quote": "Assignment requires prior written consent.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                    "quote": "6. Assignment\nAssignment requires prior written consent.\n"
+                  }
+                ]
+              }
+            },
+            "conflicts": [],
+            "deviations": [
+              {
+                "rule": "notice_days",
+                "severity": "medium",
+                "value": 90,
+                "quote": "Either party may terminate for convenience with 90 days notice.",
+                "source_id": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+                "playbook": "customer-v1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+        "agreement": "Cypress",
+        "parties": [
+          "Cypress Customer Example LLC",
+          "Cypress Supplier Example LLC"
+        ],
+        "base_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+        "versions": [
+          {
+            "as_of": "2025-01-01",
+            "clauses": [
+              {
+                "key": "1",
+                "text": "1. Renewal\nThis Agreement does automatically renew.\nThe renewal term is 12 months.\n\n",
+                "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                "start": 132,
+                "end": 216,
+                "history": [
+                  "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                    "quote": "1. Renewal\nThis Agreement does automatically renew.\nThe renewal term is 12 months.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "2",
+                "text": "2. Payment\nInvoices are payable within 30 days.\n\n",
+                "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                "start": 216,
+                "end": 265,
+                "history": [
+                  "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                    "quote": "2. Payment\nInvoices are payable within 30 days.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "3",
+                "text": "3. Termination\nEither party may terminate for convenience with 30 days notice.\n\n",
+                "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                "start": 265,
+                "end": 345,
+                "history": [
+                  "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                    "quote": "3. Termination\nEither party may terminate for convenience with 30 days notice.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "4",
+                "text": "4. Governing Law\nThis Agreement is governed by the laws of California.\n\n",
+                "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                "start": 345,
+                "end": 417,
+                "history": [
+                  "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                    "quote": "4. Governing Law\nThis Agreement is governed by the laws of California.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "5",
+                "text": "5. Liability\nAggregate liability is unlimited.\n\n",
+                "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                "start": 417,
+                "end": 465,
+                "history": [
+                  "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                    "quote": "5. Liability\nAggregate liability is unlimited.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "6",
+                "text": "6. Assignment\nAssignment requires prior written consent.\n",
+                "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                "start": 465,
+                "end": 522,
+                "history": [
+                  "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                    "quote": "6. Assignment\nAssignment requires prior written consent.\n"
+                  }
+                ]
+              }
+            ],
+            "facts": {
+              "effective_date": {
+                "field": "effective_date",
+                "value": "2025-01-01",
+                "status": "ok",
+                "clause_key": null,
+                "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                "quote": "Effective date: 2025-01-01",
+                "quote_origin": "source_header",
+                "reason": "base_instrument_header",
+                "evidence": [
+                  {
+                    "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                    "quote": "Effective date: 2025-01-01"
+                  }
+                ]
+              },
+              "payment_days": {
+                "field": "payment_days",
+                "value": 30,
+                "status": "ok",
+                "clause_key": "2",
+                "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                "quote": "Invoices are payable within 30 days.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                    "quote": "2. Payment\nInvoices are payable within 30 days.\n\n"
+                  }
+                ]
+              },
+              "notice_days": {
+                "field": "notice_days",
+                "value": 30,
+                "status": "ok",
+                "clause_key": "3",
+                "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                "quote": "Either party may terminate for convenience with 30 days notice.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                    "quote": "3. Termination\nEither party may terminate for convenience with 30 days notice.\n\n"
+                  }
+                ]
+              },
+              "auto_renewal": {
+                "field": "auto_renewal",
+                "value": true,
+                "status": "ok",
+                "clause_key": "1",
+                "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                "quote": "This Agreement does automatically renew.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                    "quote": "1. Renewal\nThis Agreement does automatically renew.\nThe renewal term is 12 months.\n\n"
+                  }
+                ]
+              },
+              "renewal_months": {
+                "field": "renewal_months",
+                "value": 12,
+                "status": "ok",
+                "clause_key": "1",
+                "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                "quote": "The renewal term is 12 months.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                    "quote": "1. Renewal\nThis Agreement does automatically renew.\nThe renewal term is 12 months.\n\n"
+                  }
+                ]
+              },
+              "governing_law": {
+                "field": "governing_law",
+                "value": "California",
+                "status": "ok",
+                "clause_key": "4",
+                "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                "quote": "This Agreement is governed by the laws of California.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                    "quote": "4. Governing Law\nThis Agreement is governed by the laws of California.\n\n"
+                  }
+                ]
+              },
+              "liability_cap": {
+                "field": "liability_cap",
+                "value": "unlimited",
+                "status": "ok",
+                "clause_key": "5",
+                "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                "quote": "Aggregate liability is unlimited.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                    "quote": "5. Liability\nAggregate liability is unlimited.\n\n"
+                  }
+                ]
+              },
+              "assignment_consent": {
+                "field": "assignment_consent",
+                "value": true,
+                "status": "ok",
+                "clause_key": "6",
+                "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                "quote": "Assignment requires prior written consent.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                    "quote": "6. Assignment\nAssignment requires prior written consent.\n"
+                  }
+                ]
+              }
+            },
+            "conflicts": [],
+            "deviations": [
+              {
+                "rule": "liability_cap",
+                "severity": "high",
+                "value": "unlimited",
+                "quote": "Aggregate liability is unlimited.",
+                "source_id": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+                "playbook": "customer-v1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+        "agreement": "Northstar",
+        "parties": [
+          "Northstar Customer Example LLC",
+          "Northstar Supplier Example LLC"
+        ],
+        "base_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+        "versions": [
+          {
+            "as_of": "2025-01-01",
+            "clauses": [
+              {
+                "key": "1",
+                "text": "1. Renewal\nThis Agreement does not automatically renew.\nThe renewal term is 12 months.\n\n",
+                "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                "start": 138,
+                "end": 226,
+                "history": [
+                  "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                    "quote": "1. Renewal\nThis Agreement does not automatically renew.\nThe renewal term is 12 months.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "2",
+                "text": "2. Payment\nInvoices are payable within 15 days.\n\n",
+                "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                "start": 226,
+                "end": 275,
+                "history": [
+                  "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                    "quote": "2. Payment\nInvoices are payable within 15 days.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "3",
+                "text": "3. Termination\nEither party may terminate for convenience with 30 days notice.\n\n",
+                "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                "start": 275,
+                "end": 355,
+                "history": [
+                  "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                    "quote": "3. Termination\nEither party may terminate for convenience with 30 days notice.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "4",
+                "text": "4. Governing Law\nThis Agreement is governed by the laws of California.\n\n",
+                "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                "start": 355,
+                "end": 427,
+                "history": [
+                  "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                    "quote": "4. Governing Law\nThis Agreement is governed by the laws of California.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "5",
+                "text": "5. Liability\nAggregate liability is limited to annual fees.\n\n",
+                "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                "start": 427,
+                "end": 488,
+                "history": [
+                  "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                    "quote": "5. Liability\nAggregate liability is limited to annual fees.\n\n"
+                  }
+                ]
+              },
+              {
+                "key": "6",
+                "text": "6. Assignment\nAssignment requires prior written consent.\n",
+                "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                "start": 488,
+                "end": 545,
+                "history": [
+                  "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1"
+                ],
+                "disputed": false,
+                "evidence": [
+                  {
+                    "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                    "quote": "6. Assignment\nAssignment requires prior written consent.\n"
+                  }
+                ]
+              }
+            ],
+            "facts": {
+              "effective_date": {
+                "field": "effective_date",
+                "value": "2025-01-01",
+                "status": "ok",
+                "clause_key": null,
+                "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                "quote": "Effective date: 2025-01-01",
+                "quote_origin": "source_header",
+                "reason": "base_instrument_header",
+                "evidence": [
+                  {
+                    "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                    "quote": "Effective date: 2025-01-01"
+                  }
+                ]
+              },
+              "payment_days": {
+                "field": "payment_days",
+                "value": 15,
+                "status": "ok",
+                "clause_key": "2",
+                "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                "quote": "Invoices are payable within 15 days.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                    "quote": "2. Payment\nInvoices are payable within 15 days.\n\n"
+                  }
+                ]
+              },
+              "notice_days": {
+                "field": "notice_days",
+                "value": 30,
+                "status": "ok",
+                "clause_key": "3",
+                "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                "quote": "Either party may terminate for convenience with 30 days notice.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                    "quote": "3. Termination\nEither party may terminate for convenience with 30 days notice.\n\n"
+                  }
+                ]
+              },
+              "auto_renewal": {
+                "field": "auto_renewal",
+                "value": false,
+                "status": "ok",
+                "clause_key": "1",
+                "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                "quote": "This Agreement does not automatically renew.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                    "quote": "1. Renewal\nThis Agreement does not automatically renew.\nThe renewal term is 12 months.\n\n"
+                  }
+                ]
+              },
+              "renewal_months": {
+                "field": "renewal_months",
+                "value": 12,
+                "status": "ok",
+                "clause_key": "1",
+                "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                "quote": "The renewal term is 12 months.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                    "quote": "1. Renewal\nThis Agreement does not automatically renew.\nThe renewal term is 12 months.\n\n"
+                  }
+                ]
+              },
+              "governing_law": {
+                "field": "governing_law",
+                "value": "California",
+                "status": "ok",
+                "clause_key": "4",
+                "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                "quote": "This Agreement is governed by the laws of California.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                    "quote": "4. Governing Law\nThis Agreement is governed by the laws of California.\n\n"
+                  }
+                ]
+              },
+              "liability_cap": {
+                "field": "liability_cap",
+                "value": "limited to annual fees",
+                "status": "ok",
+                "clause_key": "5",
+                "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                "quote": "Aggregate liability is limited to annual fees.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                    "quote": "5. Liability\nAggregate liability is limited to annual fees.\n\n"
+                  }
+                ]
+              },
+              "assignment_consent": {
+                "field": "assignment_consent",
+                "value": true,
+                "status": "ok",
+                "clause_key": "6",
+                "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                "quote": "Assignment requires prior written consent.",
+                "quote_origin": "composite",
+                "reason": null,
+                "evidence": [
+                  {
+                    "source_id": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+                    "quote": "6. Assignment\nAssignment requires prior written consent.\n"
+                  }
+                ]
+              }
+            },
+            "conflicts": [],
+            "deviations": []
+          }
+        ]
+      }
+    ],
+    "review": [],
+    "source_hashes": {
+      "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49": "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49",
+      "f85dcfe436975034974046396ad071cad65cae9bd46d58573bd5cce4ffa6f4d7": "f85dcfe436975034974046396ad071cad65cae9bd46d58573bd5cce4ffa6f4d7",
+      "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228": "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228",
+      "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1": "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1",
+      "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1": "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1",
+      "5a4c63e70a2410a89cb692a60b6eb7a217417cea320efa39911fe15bfb5b1acb": "5a4c63e70a2410a89cb692a60b6eb7a217417cea320efa39911fe15bfb5b1acb"
+    },
+    "source_texts": {
+      "25877081fc57aa33dcfc7a61f7f660584f86b0fc7c3afe4d49daea325e070a49": "Master Services Agreement: Atlas\nParties: Atlas Customer Example LLC | Atlas Supplier Example LLC\nEffective date: 2025-01-01\n\n1. Renewal\nThis Agreement does automatically renew.\nThe renewal term is 12 months.\n\n2. Payment\nInvoices are payable within 30 days.\n\n3. Termination\nEither party may terminate for convenience with 30 days notice.\n\n4. Governing Law\nThis Agreement is governed by the laws of California.\n\n5. Liability\nAggregate liability is limited to annual fees.\n\n6. Assignment\nAssignment requires prior written consent.\n",
+      "f85dcfe436975034974046396ad071cad65cae9bd46d58573bd5cce4ffa6f4d7": "Amendment 1: Atlas\nParties: Atlas Customer Example LLC | Atlas Supplier Example LLC\nEffective date: 2025-06-01\nAmends agreement effective: 2025-01-01\n\nIn Section 2, replace \"30 days\" with \"60 days\".\n",
+      "d4871cbe2b163ef04af719fb78d4d63d21d3655e7e3863da956d193be3d66228": "Master Services Agreement: Meridian\nParties: Meridian Customer Example LLC | Meridian Supplier Example LLC\nEffective date: 2025-01-01\n\n1. Renewal\nThis Agreement does not automatically renew.\nThe renewal term is 12 months.\n\n2. Payment\nInvoices are payable within 45 days.\n\n3. Termination\nEither party may terminate for convenience with 90 days notice.\n\n4. Governing Law\nThis Agreement is governed by the laws of California.\n\n5. Liability\nAggregate liability is limited to annual fees.\n\n6. Assignment\nAssignment requires prior written consent.\n",
+      "d8c4bf1227f5172a5dfdb1806f0986b73034ae564e1961880763b5e2a0e452a1": "Master Services Agreement: Cypress\nParties: Cypress Customer Example LLC | Cypress Supplier Example LLC\nEffective date: 2025-01-01\n\n1. Renewal\nThis Agreement does automatically renew.\nThe renewal term is 12 months.\n\n2. Payment\nInvoices are payable within 30 days.\n\n3. Termination\nEither party may terminate for convenience with 30 days notice.\n\n4. Governing Law\nThis Agreement is governed by the laws of California.\n\n5. Liability\nAggregate liability is unlimited.\n\n6. Assignment\nAssignment requires prior written consent.\n",
+      "e55da851bd8052e67e6c6429098ae7afd08b1a96d711fd3c21d7a8d7b7d527f1": "Master Services Agreement: Northstar\nParties: Northstar Customer Example LLC | Northstar Supplier Example LLC\nEffective date: 2025-01-01\n\n1. Renewal\nThis Agreement does not automatically renew.\nThe renewal term is 12 months.\n\n2. Payment\nInvoices are payable within 15 days.\n\n3. Termination\nEither party may terminate for convenience with 30 days notice.\n\n4. Governing Law\nThis Agreement is governed by the laws of California.\n\n5. Liability\nAggregate liability is limited to annual fees.\n\n6. Assignment\nAssignment requires prior written consent.\n",
+      "5a4c63e70a2410a89cb692a60b6eb7a217417cea320efa39911fe15bfb5b1acb": "Amendment 2: Atlas\nParties: Atlas Customer Example LLC | Atlas Supplier Example LLC\nEffective date: 2025-06-01\nAmends agreement effective: 2025-01-01\n\nReplace Section 2 with:\n\"Invoices are payable within 90 days.\"\n"
+    },
+    "exclusions": {}
+  },
+  "documents": [
+    {
+      "name": "1-agreement.txt",
+      "text": "Master Services Agreement: Atlas\nParties: Atlas Customer Example LLC | Atlas Supplier Example LLC\nEffective date: 2025-01-01\n\n1. Renewal\nThis Agreement does automatically renew.\nThe renewal term is 12 months.\n\n2. Payment\nInvoices are payable within 30 days.\n\n3. Termination\nEither party may terminate for convenience with 30 days notice.\n\n4. Governing Law\nThis Agreement is governed by the laws of California.\n\n5. Liability\nAggregate liability is limited to annual fees.\n\n6. Assignment\nAssignment requires prior written consent.\n"
+    },
+    {
+      "name": "2-amendment.txt",
+      "text": "Amendment 1: Atlas\nParties: Atlas Customer Example LLC | Atlas Supplier Example LLC\nEffective date: 2025-06-01\nAmends agreement effective: 2025-01-01\n\nIn Section 2, replace \"30 days\" with \"60 days\".\n"
+    },
+    {
+      "name": "3-agreement.txt",
+      "text": "Master Services Agreement: Meridian\nParties: Meridian Customer Example LLC | Meridian Supplier Example LLC\nEffective date: 2025-01-01\n\n1. Renewal\nThis Agreement does not automatically renew.\nThe renewal term is 12 months.\n\n2. Payment\nInvoices are payable within 45 days.\n\n3. Termination\nEither party may terminate for convenience with 90 days notice.\n\n4. Governing Law\nThis Agreement is governed by the laws of California.\n\n5. Liability\nAggregate liability is limited to annual fees.\n\n6. Assignment\nAssignment requires prior written consent.\n"
+    },
+    {
+      "name": "4-agreement.txt",
+      "text": "Master Services Agreement: Cypress\nParties: Cypress Customer Example LLC | Cypress Supplier Example LLC\nEffective date: 2025-01-01\n\n1. Renewal\nThis Agreement does automatically renew.\nThe renewal term is 12 months.\n\n2. Payment\nInvoices are payable within 30 days.\n\n3. Termination\nEither party may terminate for convenience with 30 days notice.\n\n4. Governing Law\nThis Agreement is governed by the laws of California.\n\n5. Liability\nAggregate liability is unlimited.\n\n6. Assignment\nAssignment requires prior written consent.\n"
+    },
+    {
+      "name": "5-agreement.txt",
+      "text": "Master Services Agreement: Northstar\nParties: Northstar Customer Example LLC | Northstar Supplier Example LLC\nEffective date: 2025-01-01\n\n1. Renewal\nThis Agreement does not automatically renew.\nThe renewal term is 12 months.\n\n2. Payment\nInvoices are payable within 15 days.\n\n3. Termination\nEither party may terminate for convenience with 30 days notice.\n\n4. Governing Law\nThis Agreement is governed by the laws of California.\n\n5. Liability\nAggregate liability is limited to annual fees.\n\n6. Assignment\nAssignment requires prior written consent.\n"
+    },
+    {
+      "name": "6-amendment.txt",
+      "text": "Amendment 2: Atlas\nParties: Atlas Customer Example LLC | Atlas Supplier Example LLC\nEffective date: 2025-06-01\nAmends agreement effective: 2025-01-01\n\nReplace Section 2 with:\n\"Invoices are payable within 90 days.\"\n"
+    }
+  ]
+}
