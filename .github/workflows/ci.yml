@@ -1,0 +1,45 @@
+name: CI
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17-alpine@sha256:d4bb0a8c1b7bb2e29f976d099e7bfb9a5d8858cffe9e46b35cd302cd1f1f8168
+        env:
+          POSTGRES_DB: cip
+          POSTGRES_USER: cip
+          POSTGRES_PASSWORD: cip
+        ports: ["55432:5432"]
+        options: --health-cmd "pg_isready -U cip -d cip" --health-interval 2s --health-timeout 3s --health-retries 30
+      redis:
+        image: redis:7.2-alpine@sha256:29e8589c3f9ba699b5f7aa4b3c7733c58852a3626439e619aa0ee78de08c6ca0
+        ports: ["56379:6379"]
+        options: --health-cmd "redis-cli ping" --health-interval 2s --health-timeout 3s --health-retries 30
+    env:
+      CIP_INTEGRATION: "1"
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff # v6
+        with:
+          version: "0.10.8"
+      - run: uv sync --frozen --python 3.12
+      - run: uv run ruff check src tests scripts
+      - run: uv run ruff format --check src tests scripts
+      - run: uv run mypy src scripts
+      - run: uv run python scripts/check_secrets.py
+      - run: node --check src/cip/web/app.js
+      - run: node --test tests/frontend.test.mjs
+      - run: uv run pytest -q
+      - run: uv run cip eval
+      - run: uv run cip demo
+      - run: uv run pip-audit
+      - run: docker build -t cip:ci .
+      - run: docker run --rm cip:ci cip eval --output /tmp/evaluation.json
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        if: always()
+        with:
+          name: test-results
+          path: artifacts/

@@ -1,0 +1,72 @@
+name: contract-intelligence
+services:
+  postgres:
+    image: postgres:17-alpine@sha256:d4bb0a8c1b7bb2e29f976d099e7bfb9a5d8858cffe9e46b35cd302cd1f1f8168
+    environment:
+      POSTGRES_DB: cip
+      POSTGRES_USER: cip
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-cip}
+    ports: ["127.0.0.1:55432:5432"]
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cip -d cip"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+  redis:
+    image: redis:7.2-alpine@sha256:29e8589c3f9ba699b5f7aa4b3c7733c58852a3626439e619aa0ee78de08c6ca0
+    command: ["redis-server", "--appendonly", "yes", "--maxmemory", "128mb", "--maxmemory-policy", "noeviction"]
+    ports: ["127.0.0.1:56379:6379"]
+    volumes: ["redisdata:/data"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+  migrate:
+    build: ..
+    command: ["cip", "migrate"]
+    environment: &env
+      DATABASE_URL: postgresql://cip:${POSTGRES_PASSWORD:-cip}@postgres:5432/cip
+      REDIS_URL: redis://redis:6379/0
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      CIP_MODEL: ${CIP_MODEL:-}
+      CIP_RUNTIME_PASSWORD: ${CIP_RUNTIME_PASSWORD:-cip-local-runtime}
+    depends_on:
+      postgres: {condition: service_healthy}
+  api:
+    build: ..
+    command: ["uvicorn", "cip.api:app", "--host", "0.0.0.0", "--port", "8080", "--no-access-log"]
+    environment: &runtime_env
+      DATABASE_URL: postgresql://cip_runtime:${CIP_RUNTIME_PASSWORD:-cip-local-runtime}@postgres:5432/cip
+      REDIS_URL: redis://redis:6379/0
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      CIP_MODEL: ${CIP_MODEL:-}
+    ports: ["127.0.0.1:58080:8080"]
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+      redis: {condition: service_healthy}
+    read_only: true
+    tmpfs: ["/tmp:size=16m"]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: ["ALL"]
+    mem_limit: 512m
+    pids_limit: 128
+    restart: unless-stopped
+  worker:
+    build: ..
+    command: ["cip", "worker"]
+    environment: *runtime_env
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+      redis: {condition: service_healthy}
+    read_only: true
+    tmpfs: ["/tmp:size=16m"]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: ["ALL"]
+    mem_limit: 512m
+    pids_limit: 128
+    restart: unless-stopped
+volumes:
+  pgdata:
+  redisdata:
