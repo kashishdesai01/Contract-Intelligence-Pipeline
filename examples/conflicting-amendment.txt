@@ -1,0 +1,7 @@
+Amendment 2: Atlas
+Parties: Atlas Customer Example LLC | Atlas Supplier Example LLC
+Effective date: 2025-06-01
+Amends agreement effective: 2025-01-01
+
+Replace Section 2 with:
+"Invoices are payable within 90 days."

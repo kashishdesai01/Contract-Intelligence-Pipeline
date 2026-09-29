@@ -1,0 +1,22 @@
+Master Services Agreement: Atlas
+Parties: Atlas Customer Example LLC | Atlas Supplier Example LLC
+Effective date: 2025-01-01
+
+1. Renewal
+This Agreement does automatically renew.
+The renewal term is 12 months.
+
+2. Payment
+Invoices are payable within 30 days.
+
+3. Termination
+Either party may terminate for convenience with 30 days notice.
+
+4. Governing Law
+This Agreement is governed by the laws of California.
+
+5. Liability
+Aggregate liability is limited to annual fees.
+
+6. Assignment
+Assignment requires prior written consent.

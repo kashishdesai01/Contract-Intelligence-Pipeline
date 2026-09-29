@@ -1,0 +1,6 @@
+Amendment 1: Atlas
+Parties: Atlas Customer Example LLC | Atlas Supplier Example LLC
+Effective date: 2025-06-01
+Amends agreement effective: 2025-01-01
+
+In Section 2, replace "30 days" with "60 days".
